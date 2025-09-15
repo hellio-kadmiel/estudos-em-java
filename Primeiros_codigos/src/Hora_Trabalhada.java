@@ -1,0 +1,30 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Hora_Trabalhada {
+
+	public static void main(String[] args) {
+		
+	Locale.setDefault(Locale.US);
+	Scanner sc = new Scanner(System.in) ;
+	
+	int horas, numeros;
+	double valorHora, salario;
+	
+	numeros = sc.nextInt();
+	horas = sc.nextInt();
+	valorHora = sc.nextDouble();
+	
+	salario = valorHora * horas;
+	
+	System.out.println("NUMBER = " + numeros);
+	System.out.printf  ("Salary = U$ %.2f%n", salario);
+	
+	
+	sc.close();
+		
+		
+		
+	}
+	
+}
