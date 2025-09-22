@@ -1,8 +1,18 @@
-
+# Java
 *.class
-*.iml
-.target/
-/.metadata/
-.idea/
-out/
+*.jar
+*.war
+bin/
+target/
+build/
 
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Sistemas
+.DS_Store
+Thumbs.db
