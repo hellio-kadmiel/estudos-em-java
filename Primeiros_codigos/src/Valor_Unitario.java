@@ -15,12 +15,15 @@ public class Valor_Unitario {
 		System.out.println("Valor das pecas: ");
 		System.out.println("Digite o valor da peca ");
 		peca_1 = sc.nextInt();
-		
+		System.out.println("Digite o numero da peca um");
 		numero1 = sc.nextInt();
+		System.out.println("Qual preco da peca 1");
 		preco1= sc.nextDouble();
-		
+		System.out.println("qual valor da peca dois?");
 		peca_2 = sc.nextInt();
+		System.out.println("qual numero da peca dois?");
 		numero2 = sc.nextInt();
+		System.out.println("qual preco?");
 		preco2= sc.nextDouble();
 		
 		

@@ -2,7 +2,7 @@ package application;
 
 import entites.Hent;
 
-public class program {
+public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

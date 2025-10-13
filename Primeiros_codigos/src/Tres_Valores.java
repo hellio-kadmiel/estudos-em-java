@@ -7,8 +7,11 @@ public class Tres_Valores {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
+		System.out.println("Coloque o valor de A: ");
 		A = sc.nextDouble();
+		System.out.println("Coloque o valor de B: ");
 		B = sc.nextDouble();
+		System.out.println("Coloque o valor de C: ");
 		C = sc.nextDouble();
 		
 		

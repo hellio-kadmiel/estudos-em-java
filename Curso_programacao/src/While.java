@@ -5,6 +5,7 @@ public class While {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o valor da soma");
 		int x = sc.nextInt();
 		int soma = 0;
 
