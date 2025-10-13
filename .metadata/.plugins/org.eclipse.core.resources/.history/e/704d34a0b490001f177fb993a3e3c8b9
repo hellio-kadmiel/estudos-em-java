@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		String x;
+
+		x = sc.next();
+
+		System.out.println("Voce digitou " + x);
+		
+		int z;
+		z = sc.nextInt();
+		System.out.println("O numero eh: " + z);
+		
+	
+		double af;
+		
+		sc.nextDouble();
+		System.out.printf("o double eh:" + af );
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

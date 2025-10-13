@@ -9,15 +9,17 @@ public class Valor_Unitario {
 		Scanner sc = new Scanner(System.in);
 
 		
-		int peca1, peca2; 
+		int peca_1, peca_2; 
 		int numero1, numero2;
 		double preco1, preco2, total;
 		System.out.println("Valor das pecas: ");
-		peca1 = sc.nextInt();
+		System.out.println("Digite o valor da peca ");
+		peca_1 = sc.nextInt();
+		
 		numero1 = sc.nextInt();
 		preco1= sc.nextDouble();
 		
-		peca2 = sc.nextInt();
+		peca_2 = sc.nextInt();
 		numero2 = sc.nextInt();
 		preco2= sc.nextDouble();
 		

@@ -1,0 +1,30 @@
+
+public class Casting {
+	public static void main(String[] args) {
+		
+		
+		int a, b;
+		double resultado;
+		a = 5;
+		b = 2;
+		resultado = (double) a / b;
+		System.out.println(resultado);		
+		// Resultado sem o double fazendo o casting //
+
+		int c, d;
+		double resultado1;
+		c = 5;
+		d = 2;
+		resultado1 = c / d;
+		System.out.println(resultado1);
+
+		double g;
+		 int f;
+		 g = 5.0;
+		 h = (int) g;
+		 System.out.println(h);
+		
+		
+
+	}
+}

@@ -7,29 +7,14 @@ public class Diferanca {
 		
 		Scanner sc = new Scanner (System.in);
 		Locale.setDefault(Locale.US);
-		
+			System.out.println("Digite o valor a qual voce deseja saber a diferença:");
 		double r= 0, A, pi = 3.14159;
 		
 		r = sc.nextDouble();
 		
 		A = pi * r * r;
 		
-		System.out.printf("A=%.4f%n", A);
-		
-		sc.close();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.printf("A=%.4f%n", A);	
 		
 		sc.close();
 

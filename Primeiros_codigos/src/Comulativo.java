@@ -5,6 +5,7 @@ public class Comulativo {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		System.out.println("--------------Se o valor passar de 100, ira cobrar o valor digitado * 2.0-------------------------");
 		System.out.println("Digite o tempo: ");
 		int minutos = sc.nextInt();
 
@@ -15,7 +16,11 @@ public class Comulativo {
 			conta +=  (minutos - 100) * 2.0;
 
 		}
-		System.out.printf("Valor a pagar: R$ %.2f", conta);
+		System.out.printf("Valor a pagar pelo tempo de ligacao: R$ %.2f", conta);
+		System.out.println();
+		
+		
+		System.out.println("---------------------------------------");
 
 		sc.close();
 

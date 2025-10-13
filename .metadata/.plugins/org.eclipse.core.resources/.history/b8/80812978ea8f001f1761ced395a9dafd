@@ -1,0 +1,40 @@
+import java.util.Locale;
+
+public class Saida_de_Dados {
+
+	public static void main(String[] args) {
+
+		String nome = "maria";
+		int idade = 60;
+		double renda =  4000.0;
+		Locale.setDefault(Locale.US);
+		System.out.printf("%s tem %d ano e tem uma rende de R$ %.2f reais%n", nome, idade, renda);
+		
+		
+		String produte1 = "computer";
+		String produte2 = "Office";
+		
+		
+		int age = 20;
+		int code =5290;
+		char genero = 'F';
+		
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		
+		
+		
+		
+		System.out.println("Products: %.f");
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

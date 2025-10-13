@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class NumerosInteiros {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Numero de entrada que ira se repetir");
+		int n = sc.nextInt();
+		
+		
+		int [] vect = new int [n];
+		
+		for (int i = 0; i < vect.length; i++) {
+			vect[i]= sc.nextInt();
+			
+			
+			
+		}
+		
+		
+		
+		
+
+		sc.close();
+	}
+
+}

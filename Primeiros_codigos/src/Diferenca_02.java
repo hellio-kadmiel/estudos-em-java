@@ -5,12 +5,15 @@ public class Diferenca_02 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
+		System.out.println("Digite 04 numeros:");
 		int A, B, C, D, dif;
-
+		System.out.println("Digite o primeiro");
 		A = sc.nextInt();
+		System.out.println("Digite o 2:");
 		B = sc.nextInt();
+		System.out.println("Digite o 3:");
 		C = sc.nextInt();
+		System.out.println("Digite o 4:");
 		D = sc.nextInt();
 		
 		

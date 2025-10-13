@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		String x;
+
+		x = sc.next();
+
+		System.out.println("Voce digitou " + x);
+
+		int z;
+		z = sc.nextInt();
+		System.out.println("O numero eh: " + z);
+
+		double a;
+		System.out.print("Digite um número do tipo double: ");
+		a = sc.nextDouble();
+
+		System.out.printf("O valor do double é: %.2f%n", a);
+		char b;
+		System.out.println("Digite o char:");
+
+		b = sc.next().charAt(0);
+		System.out.println("" + b);
+
+		sc.close();
+
+	}
+
+}

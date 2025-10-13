@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String produto1 = "computer";
+		String produto2 = "Office desk"; 
+		
+		int idade = 30;
+		int code = 5290;
+		char genero = 'f';
+		
+		double preco1 = 2100.0;
+		double preco2 = 650.50;
+		double measure = 52.3252523;
+		
+		
+		System.out.println ("Produtos:");
+		System.out.printf ("%s com preco de R$ %.2f ", produto1 , preco1 );
+		System.out.println();
+		System.out.printf ("%s com o preco de R$ %.2f ", produto2 , preco2 );
+		System.out.println();
+		System.out.printf ("Record: %d de idade, code %d e genero: %s ", idade , code , genero);
+		System.out.println();
+		System.out.printf ("Measue com oito decimal places: %f ", measure);
+	
+	}
+}
