@@ -35,11 +35,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\kadmi\OneDrive\Área de Trabalho\JogoFip\RemakeFlappyBird\src\main\java\org\example"/>
+			<item value="C:\Users\kadmi\OneDrive\Área de Trabalho\JogoFip\RemakeFlappyBird"/>
 			<item value="C:\Users\kadmi\OneDrive\Documentos\Java"/>
 			<item value="C:\Users\kadmi\OneDrive\Documentos\Java\Calculador"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="249"/>
+			<item key="DIALOG_X_ORIGIN" value="180"/>
 			<item key="DIALOG_Y_ORIGIN" value="8"/>
 			<item key="DIALOG_WIDTH" value="885"/>
 			<item key="DIALOG_HEIGHT" value="629"/>
