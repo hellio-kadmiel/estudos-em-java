@@ -5,7 +5,7 @@ import entities.Installment;
 
 import java.time.LocalDate;
 
-public class ContractService {
+public class ContractService  {
     private OnlinePaymentService onlinePaymentService;
 
 
@@ -14,8 +14,14 @@ public class ContractService {
     }
 
     public void processContract(Contract contract, int months){
-        contract.getInstallments().add(new Installment(LocalDate.of(2018, 8, 20), 200.0));
-        contract.getInstallments().add(new Installment(LocalDate.of(2018, 8, 22), 220.0));
+         for (int i=1; i <= months ; i++){
+             LocalDate dueDate = contract.getDate().plusMonths(i);
+             double basicQuota = contract.getTotalValue() / months;
+             double interest = onlinePaymentService.interest(basicQuota, i);
+             double fee = onlinePaymentService.paymentFee(basicQuota  + interest);
+             double quota = basicQuota + interest + fee;
+             contract.getInstallments().add(new Installment(dueDate, quota));
+         }
     }
 
 }
