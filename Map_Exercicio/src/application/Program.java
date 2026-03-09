@@ -35,6 +35,7 @@ public class Program {
                 line = br.readLine();
             }
             for (String key : votos.keySet()){
+                System.out.println("Candidatos ");
                 System.out.println(key + ": " + votos.get(key));
             }
 
